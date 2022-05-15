@@ -1,19 +1,19 @@
 from flask_wtf import FlaskForm
 from wtforms import StringField, TextAreaField,SubmitField, SelectField
-from wtforms.validators import IputRequired
+from wtforms.validators import InputRequired
 
 class PostForm(FlaskForm):
-    title = StringField("Blog title:", validators=[IputRequired()])
-    post = TextAreaField("Type Away:", validators=[IputRequired()])
+    title = StringField("Blog title:", validators=[InputRequired()])
+    post = TextAreaField("Type Away:", validators=[InputRequired()])
     submit = SubmitField("Post")
 
 class UpdatePostForm(FlaskForm):
-    title = StringField("Blog title", validators=[IputRequired()])
-    post = TextAreaField("Type Away", validators=[IputRequired()])
+    title = StringField("Blog title", validators=[InputRequired()])
+    post = TextAreaField("Type Away", validators=[InputRequired()])
     submit = SubmitField("Update")
 
 class CommentForm(FlaskForm):
-    comment = TextAreaField("Post Comment", validators=[IputRequired()])
+    comment = TextAreaField("Post Comment", validators=[InputRequired()])
     alias = StringField("Comment Alias")
     submit = SubmitField("Comment")
 

@@ -20,6 +20,7 @@ flask-mail = "*"
 werkzeug = "==0.16.0"
 markupsafe = "==2.0.1"
 bleach = "*"
+flask-admin = "*"
 
 [dev-packages]
 autopep8 = "*"
