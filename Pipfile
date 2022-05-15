@@ -11,6 +11,7 @@ psycopg2-binary = "*"
 gunicorn = "*"
 flask-login = "*"
 flask-wtf = "*"
+flask-sqlalchemy = "*"
 
 [dev-packages]
 
