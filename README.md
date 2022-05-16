@@ -80,13 +80,10 @@ As a user I would like:
 > * pipenv install flask-uploads
 
 
-## Known Bugs
-
-> It does not have bugs.But if any problems should occur, email me at devsarahmarion@gmail.com
 
 ## Support and Contact Details
 
-> You can reach out to me at devsarahmarion@gmail.com
+> You can reach out to me at hariettemaina@gmail.com
 for Reviews, Advice, Collaborations and Comments
 
 ## Licence
