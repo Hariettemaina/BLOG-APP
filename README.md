@@ -10,7 +10,7 @@
 
 ## Description
 
- This is a web application that allows various users to submit a short pitch. Users can also be able to view other pitches from different categories (Pick-up Lines, Interview Pitches, Product Pitches, Promotion Pitches), comment and vote. For a user to do any of that, they need to have registered.
+ This is an app that allows users to view and submit blogs. A web application where users will submit their blogs and other users will leave comments to give their feedback on them.
 
 ## User Stories
 
@@ -24,12 +24,12 @@ As a user I would like:
 > * to create a blog from the application.
 > * to delete comments that I find insulting or degrading.
 
-<!-- ## How to use it
+## How to use it
 
 > * Internet connection
-> * Click https://blog-here.herokuapp.com/) <br/>
+> * Click jolly-blogs.herokuapp.com) <br/>
   or <br/>
-> * Copy https://blog-here.herokuapp.com/) and  Paste the link on your prefered browser -->
+> * Copy jolly-blogs.herokuapp.com) and  Paste the link on your prefered browser
 
 ## How it works
 
